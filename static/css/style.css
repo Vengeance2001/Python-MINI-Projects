@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://t4.ftcdn.net/jpg/07/60/92/09/240_F_760920935_v8kvzLskbzYMMWg8qFXyjfBJ39oDBEy0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Added opacity to see the background image */
+    padding: 40px 60px; /* Increased padding to make the container bigger */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased shadow for a more pronounced effect */
+    text-align: center;
+    max-width: 500px;
+    height: 40vh; /* Set a maximum width to make the container bigger */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #087d2b; /* Adjusted text color for contrast */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Adjusted text color for contrast */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for better readability */
+    place-content:inherit;
+    border: 2px solid black;
+}
+
+button {
+    padding: 22px 34px;
+    background-color: #FF0000; /* Red button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
