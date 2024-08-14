@@ -63,7 +63,7 @@ This project is a simple web application that generates a QR code from a user-pr
 
 ## Screenshot
 
-![QR Code Generator Screenshot](path/to/your/screenshot.png)
+![QR Code Generator Screenshot](screenshot.png)
 
 *Replace `screenshot.png` with the relative path to your screenshot image in the repository.*
 
