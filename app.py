@@ -10,6 +10,8 @@ def home():
     return render_template('index.html')
 
 @app.route('/generate_qr', methods=['POST'])
+
+
 def generate_qr():
     link = request.form['link']
     qr = qrcode.QRCode(version=1,
